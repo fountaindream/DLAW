@@ -15,7 +15,7 @@ Person Re-identification]
 ## Data
 
 #### LTCC
-Download from [here](https://naiq.github.io/LTCC_Perosn_ReID.html.)
+Download from [here](https://naiq.github.io/LTCC_Perosn_ReID.html)
 
 #### PRCC
 Download from [here](http://www.isee-ai.cn/%7Eyangqize/clothing.html)
