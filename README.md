@@ -20,9 +20,8 @@ Download from [here](https://naiq.github.io/LTCC_Perosn_ReID.html)
 #### PRCC
 Download from [here](http://www.isee-ai.cn/%7Eyangqize/clothing.html)
 
-##################
-The processed PRCC and parsing results can be downloaded from [here](链接：https://pan.baidu.com/s/1-7PrAM3VWZKqknOgQ_m9tQ 
-提取码：bjce)
+The processed PRCC and parsing results can be downloaded from [here](链接：https://pan.baidu.com/s/1PHMg6pyEcqvzTTyMsRF9vw 
+提取码：tlky)
 
 ## Train
 
