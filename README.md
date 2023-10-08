@@ -19,12 +19,14 @@ Download from [here](https://naiq.github.io/LTCC_Perosn_ReID.html)
 
 #### PRCC
 Download from [here](http://www.isee-ai.cn/%7Eyangqize/clothing.html)
-The processed PRCC can download from [here](链接：https://pan.baidu.com/s/1Bd9ixaT2aqg9-9pYyz5EKg 
-提取码：a8qg)
+
+##################
+The processed PRCC and parsing results can be downloaded from [here](链接：https://pan.baidu.com/s/1-7PrAM3VWZKqknOgQ_m9tQ 
+提取码：bjce)
 
 ## Train
 
-You can specify more parameters in opt.py. Note that the evaluation protocols differ for the LTCC, PRCC, and Market1501 datasets. As a result, there are three alternative code files available: main.py for the LTCC dataset, main_prcc.py for the PRCC dataset, and main_market1501.py for the Market1501 dataset. Each code file is specifically tailored to the corresponding dataset's evaluation protocol and should be used accordingly.
+You can specify more parameters in opt.py. Note that the evaluation protocols differ for the LTCC, PRCC, and Market1501 datasets. As a result, three alternative code files are available: main.py for the LTCC dataset, main_prcc.py for the PRCC dataset, and main_market1501.py for the Market1501 dataset. Each code file is tailored to the corresponding dataset's evaluation protocol and should be used accordingly.
 
 ```
 python main.py --mode train --data_path <path/to/LTCC-ReID> 
