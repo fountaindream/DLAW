@@ -3,7 +3,6 @@ from __future__ import absolute_import
 import torch
 import torch.nn.functional as F
 from torch import nn
-from .clothes_detector import ClothesDetector
 from .TripletLoss import TripletLoss
 
 def weights_init_kaiming(m):
