@@ -42,7 +42,6 @@ class MatchingVector(nn.Module):
     def __init__(self, num_classes):
         super(MatchingVector, self).__init__()
         self.in_planes = 256
-        self.base = ClothesDetector()
         self.gap = nn.AdaptiveAvgPool2d(1)
         self.part_num = 7
         self.num_classes = num_classes
