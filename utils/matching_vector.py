@@ -4,6 +4,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from .TripletLoss import TripletLoss
+from .clothes_detector import ClothesDetector
 
 def weights_init_kaiming(m):
     classname = m.__class__.__name__
@@ -43,6 +44,7 @@ class MatchingVector(nn.Module):
         super(MatchingVector, self).__init__()
         self.in_planes = 256
         self.gap = nn.AdaptiveAvgPool2d(1)
+        self.base = ClothesDetector()
         self.part_num = 7
         self.num_classes = num_classes
 
