@@ -39,6 +39,10 @@ Use pretrained weight or your trained weight
 python main.py --mode evaluate --data_path <path/to/LTCC-ReID> --weight <path/to/weight_name.pt> 
 ```
 
+### Model
+The pre-trained models are provided. (链接：https://pan.baidu.com/s/1v24VSjFQoEnOySsb7MlBKA 
+提取码：49c7)
+
 
 ## Visualize
 
